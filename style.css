@@ -16,11 +16,17 @@ body {
   margin: 0;
 }
 
-.container {
+main {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
 }
 
 .card {
